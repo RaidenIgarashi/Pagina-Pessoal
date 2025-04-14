@@ -16,7 +16,6 @@
 }
 body{
     background-image: url(../img/confetti-doodles.png   );  
-    background-size: cover;
 }
 main{
     display: flex;
@@ -151,11 +150,12 @@ a:hover{
 }
 
 @media screen and (max-width: 1020px){
-
     p{
-        font-size: 20px;
+        font-size: 15px;
     }
-
+    img{
+        width: 100px;
+    }
     .topico h2, h3{
         font-size: 25px;
     }
@@ -164,7 +164,7 @@ a:hover{
         margin: 0;
     }
     .options-container button, h1{
-        font-size: 20px;
+        font-size: 8px;
         width: max-content;
         justify-content: space-between;
         margin-left: 10px;
@@ -177,6 +177,9 @@ a:hover{
     .topico-container{
         flex-direction: column;
         gap: 20px;
+    }
+    .topico-container img{
+        width: 70px;
     }
 
     ul{
