@@ -4,6 +4,9 @@
     color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+
 .special-elite-regular {
     font-family: "Special Elite", system-ui;
     font-weight: 400;
