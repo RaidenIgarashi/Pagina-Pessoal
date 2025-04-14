@@ -149,12 +149,7 @@ a:hover{
 }
 
 @media screen and (max-width: 1020px){
-    p{
-        font-size: 15px;
-    }
-    img{
-        width: 100px;
-    }
+
     .topico h2, h3{
         font-size: 25px;
     }
