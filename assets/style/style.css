@@ -158,7 +158,7 @@ a:hover{
         margin: 0;
     }
     .options-container button, h1{
-        font-size: 8px;
+        font-size: 16px;
         width: max-content;
         justify-content: space-between;
         margin-left: 10px;
