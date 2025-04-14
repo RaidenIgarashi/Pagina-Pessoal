@@ -102,10 +102,9 @@ h2, h3{
     margin-left: 40px;
 }
 
-.options-container button{
-    border: none;
+.options-container a{
+    text-decoration: none;
     background-color: transparent;
-    font-size: 20px;
 }
 
 .options-container button:hover{
@@ -166,7 +165,7 @@ a:hover{
     .options-container{
         margin: 0;
     }
-    .options-container button, h1{
+    .options-container a, h1{
         font-size: 8px;
         width: max-content;
         justify-content: space-between;
