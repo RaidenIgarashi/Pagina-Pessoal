@@ -57,6 +57,7 @@ header{
     height: 500px;
     color: white;
     z-index: 0;
+    background-size: cover;
     
 }
 
