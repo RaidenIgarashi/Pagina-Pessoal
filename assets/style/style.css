@@ -172,9 +172,6 @@ a:hover{
         flex-direction: column;
         gap: 20px;
     }
-    .topico-container img{
-        width: 70px;
-    }
 
     ul{
         display: flex;
