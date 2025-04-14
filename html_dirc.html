@@ -1,14 +1,136 @@
-<main>Usei Como um "Container" para cololocar todas as coisas dentro</main>
-<nav>Usei Para fazer a barra de navegação superior</nav>
-<div>Usei na maior parte das vezes para agrupar um conjunto de textos em um bloco</div>
-<h1>O titulo principal da minha página</h1>
-<header>Usei para representar o cabeçalho da minha página</header>
-<section>Usei para fazer os tópicos da minha página</section>
-<h2>Usei para fazer o título dos tópicos da minha página</h2>
-<h3>Subtitulos dos meus tópicos</h3>
-<p>Os Textos dos meus tópicos</p>
-<ul>Usei para fazer uma lista</ul>
-<li>Os elementos da lista</li>
-<a>Usei para redirecionar o usuário para um projeto ou para uma rede social ou para um tópico da minha página</a>
-<footer>Usei para repesentar meu rodapé</footer>
-<adress>Usei para indicar que o conteúdo dessa tag é um endereço de uma rede social</adress>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 2px solid rgb(104, 104, 104);
+            border-collapse: collapse;
+        }
+
+        table{
+            width: 50%;
+        }
+
+        section{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="topico">
+            <h1 style="font-size: 40px;">Dicionário</h1>
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Função</th>
+                </tr>
+                <tr>
+                    <td>html</td>
+                    <td>É a raiz do HTML, todo o conteúdo da página vai dentro dele</td>
+                </tr>
+                <tr>
+                    <td>head</td>
+                    <td>é onde vai os meta dados do documento</td>
+                </tr>
+                <tr>
+                    <td>body</td>
+                    <td>É o corpo do HTML. É aqui onde você coloca todas as coisas que vão aparecer no seu site</td>
+                </tr>
+                <tr>
+                    <td>main</td>
+                    <td>Serve para conter o conteúdo principal da pagina</td>
+                </tr>
+                <tr>
+                    <td>nav</td>
+                    <td>É usado para representar a barra de navegação, geralmente a que fica em cima das páginas</td>
+                </tr>
+                <tr>
+                    <td>div</td>
+                    <td>O contêiner mais básico, sem sentido semântico. Usado apenas para juntar elementos e aplicar css</td>
+                </tr>
+                <tr>
+                    <td>section</td>
+                    <td>Um contêiner quer agrupa elementos que se relacionam para formar, por exemplo, um tópico</td>
+                </tr>
+                <tr>
+                    <td>header</td>
+                    <td>É um contêiner que serve como cabeçalho da página, onde vai o título(h1), logotipos, menus e etc</td>
+                </tr>
+                <tr>
+                    <td>footer</td>
+                    <td>É um contêiner que serve como rodapé, aqui geralmente se coloca os link de contato e redes sociais</td>
+                </tr>
+                <tr>
+                    <td>h1</td>
+                    <td>Título principal da página, como o logo</td>
+                </tr>
+                <tr>
+                    <td>h2</td>
+                    <td>Titulo secundário, como título de um tópico</td>
+                </tr>
+                <tr>
+                    <td>h3</td>
+                    <td>Subtitulo de terceiro nível</td>
+                </tr>
+                <tr>
+                    <td>p</td>
+                    <td>Parágrafo de texto</td>
+                </tr>
+                <tr>
+                    <td>ul</td>
+                    <td>Lista não ordenada com marcadores(as bolinhas)</td>
+                </tr>
+                <tr>
+                    <td>li</td>
+                    <td>Elementos da lista</td>
+                </tr>
+                <tr>
+                    <td>a</td>
+                    <td>Link(ancora) usado para redirecionar o usuário para outro página, tópicos ou sites externos</td>
+                </tr>
+                <tr>
+                    <td>img</td>
+                    <td>Usado para colocar imagens</td>
+                </tr>
+                <tr>
+                    <td>adress</td>
+                    <td>Usado para informar informações do dono do site, como email, telefone de contato, rede social e etc</td>
+                </tr>
+                <tr>
+                    <td>link</td>
+                    <td>é usado dentro da tag head, é usado para conenctar o html com recursos externos, como o CSS</td>
+                </tr>
+                <tr>
+                    <td>table</td>
+                    <td>Cria uma tabela</td>
+                </tr>
+                <tr>
+                    <td>tr</td>
+                    <td>Cria uma linha na tabela</td>
+                </tr>
+                <tr>
+                    <td>th</td>
+                    <td>é usado para o cabeçalho da tabela. o Texto vem centralizado e em negrito</td>
+                </tr>
+                <tr>
+                    <td>td</td>
+                    <td>Célula comum da tabela</td>
+                </tr>
+            </table>
+            <a href="index.html" style="font-size: 30px; text-decoration: none;">Voltar </a>
+        </section>
+    </main>
+    
+</body>
+</html>
+
+
