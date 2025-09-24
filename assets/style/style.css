@@ -34,7 +34,7 @@ nav{
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 110%;
+    width: 100vw;
     height: 40px;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -135,7 +135,7 @@ li{
 }
 
 footer{
-    width: 100%;
+    width: 100vw;
     background-color: rgb(40, 42, 54);
     height: 120px;
     border-top: rgb(31, 31, 31) 1px solid;
@@ -145,7 +145,6 @@ footer{
     justify-content: left;
     bottom: 0;
     gap: 15px;
-    padding-left: 30px;
 }
 
 a:hover{
